@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name | Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to Restaurant Name</h1>
+            <p>Best dining experience in town</p>
+            <a href="#" class="btn">Book a Table</a>
+        </section>
+
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>
+                    <h3>Dish Name</h3>
+                    <p>Description of the dish</p>
+                    <span>Price</span>
+                </li>
+                <!-- repeat the above list item for all menu items -->
+            </ul>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Description of the restaurant and its history</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
